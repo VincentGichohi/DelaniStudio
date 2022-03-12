@@ -1,8 +1,9 @@
-/* img {
-    position: absolute;
-} */
+#top {
+    height: 500px;
+}
 .header {
     position: absolute;
+    color: #FFFFFF;
 }
 .heading h1 {
     text-align: center;
@@ -10,3 +11,11 @@
 heading p {
     text-align: center;
 }
+#logo {
+    position: absolute;
+    top:40%;
+    left:20%;
+}
+/* * {
+    background-color: black;
+} */
