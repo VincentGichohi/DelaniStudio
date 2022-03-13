@@ -11,15 +11,30 @@
     /* bottom: 90%; */
     left:40%;
 }
+
 #logo {
     position: absolute;
     top:25%;
     left:48%;
 }
+.contact h1{
+    position: absolute;
+    top: 460%;
+    bottom: 0px;
+    /* color: #FFFFFF; */
+}
+#contact {
+    position: relative;
+}
 #mouse {
     position: absolute;
     top:90%;
     left:50%;
+}
+
+#first-flex {
+    float: left;
+    margin: 0 0 0 15px;
 }
 #first {
     font-size: 10px;
@@ -30,7 +45,18 @@
 .after-header {
     text-align: center;
 }
+.flex{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+}
 
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
 .second-image {
     /* position: relative; */
     width: 100%;
