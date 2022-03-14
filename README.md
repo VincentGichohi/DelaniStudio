@@ -8,7 +8,7 @@ This is a web page for Delani Studio with a detailed explanation on who they are
 * Copy the repository from the one you've forked
 * Clone the repository to your preferred location in your machine using the text editor of your choice
 ## Known Bugs
-No kwown bugs
+No known bugs
 ## Technologies Used
 *HTMl
 *CSS
