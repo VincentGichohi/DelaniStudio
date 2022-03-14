@@ -17,14 +17,20 @@
     top:25%;
     left:48%;
 }
-.contact h1{
+#last {
     position: absolute;
-    top: 460%;
-    bottom: 0px;
-    /* color: #FFFFFF; */
+    /* right: 50px; */
+    top: 3700px;
+    margin: 50px;
+    max-width: 400px;
+    padding: 50px;
 }
+/* .input-group {
+    position: absolute;
+} */
 #contact {
-    position: relative;
+    position: absolute;
+    width:100%;
 }
 #mouse {
     position: absolute;
