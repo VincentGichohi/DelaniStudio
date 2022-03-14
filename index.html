@@ -63,16 +63,21 @@
         </div><br>
         <div class="contact">
             <img id="contact" src="images/background/c_image.jpg" alt="">
-            <form action="">
-                <h1>CONTACT US</h1>
-                <!-- <label for="name"><b>Name</b></label> -->
-                <input type="text" placeholder="Name..." name="Name" required>
-                <!-- <label for="email"><b>Email</b></label> -->
+            <form id="last" action="">
+                <h1 id="last-contact">CONTACT US</h1>
+                <input type="text" placeholder="Name..." name="Name" required><br>
                 <input type="email" placeholder="Email...." name="email" required>
                 <label for="message"><b></b></label>
-                <textarea rows="10" cols="50" placeholder="Your message here....." name="message" id="message"></textarea>
+                <textarea rows="9" cols="50" placeholder="Your message here....." name="message" id="message"></textarea>
                 <!-- <input type="text" placeholder="Your message here...." name="message" required>      -->
             </form>
+        </div>
+        <button type="submit" class="btn" onclick="openPopUp()">Submit</button>
+        <div class="popup" id="popup">
+            <img src="yes.jpg" alt="">
+            <h2>Thank You!</h2>
+            <p>Your details have been successfully submitted. Thank you!</p>
+            <button type="button" onclick="closePopUp()">OK</button>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
