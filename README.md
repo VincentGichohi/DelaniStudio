@@ -10,9 +10,9 @@ This is a web page for Delani Studio with a detailed explanation on who they are
 ## Known Bugs
 No known bugs
 ## Technologies Used
-*HTMl
-*CSS
-*JAVASCRIPT
+1.HTMl
+2.CSS
+3.JAVASCRIPT
 ## Support and contact details
 Feel free to reach out and help in bettering the application!
 You can reach out to me on my email at vincentegichohi@gmail.com
