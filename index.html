@@ -101,25 +101,30 @@
         </div><br>
         <div class="contact">
             <h1 id="last-contact">CONTACT US</h1>
-            <img id="contact" src="images/background/c_image.jpg" class="img-fluid" alt="Responsive image">
+            <img src="images/background/c_image.jpg" class="img-fluid" alt="Responsive image">
             <form id="last" action="">
-
-                <input type="text" placeholder="Name..." name="Name" required><br>
-                <input type="email" placeholder="Email...." name="email" required>
-                <label for="message"><b></b></label>
+                <div class="row">
+                    <div class="col">
+                        <input type="text" placeholder="Name..." name="Name" required>
+                    </div>
+                    <div class="col">
+                        <input type="email" placeholder="Email...." name="email" required><br>
+                    </div>
+                </div>
+                <label for="message"><b></b></label><br>
                 <textarea rows="9" cols="50" placeholder="Your message here....." name="message"
                     id="message"></textarea>
             </form>
         </div>
-        <button type="submit" class="btn" onclick="openPopUp()">Submit</button>
+        <!-- <button type="submit" class="btn" onclick="openPopUp()">Submit</button>
         <div class="popup" id="popup">
             <img src="images/yes.webp" alt="">
             <h2>Thank You!</h2>
             <p>Your details have been successfully submitted. Thank you!</p>
-            <button type="button" onclick="closePopUp()">OK</button>
+            <button type="button" onclick="closePopUp()">OK</button> -->
         </div>
 
-    <div class="social">
+    <div class="container">
         <img src="images/social_icons/behance.png" alt=""><img src="images/social_icons/dribble.png" alt=""><img
             src="images/social_icons/facebook.png" alt=""><img src="images/social_icons/flickr.png" alt=""><img
             src="images/social_icons/g_plus.png" alt=""><img src="images/social_icons/pinterest.png" alt=""><img
