@@ -8,7 +8,7 @@ body, html {
   }
 .container {
     left: 20%;
-    top: 1000%;margin: 0px 60px 40px 0px;
+    top: 1000%;margin: 0px 80px 40px 0px;
 }
 .header {
     position: top;
@@ -31,7 +31,7 @@ body, html {
 #last-contact {
     color:#FFFFFF;
     position: absolute;
-    top: 340%;
+    top: 360%;
     left: 40%;
     text-align: center;
 }
@@ -43,6 +43,7 @@ body, html {
 .row {
     top: 700%;
     left: 40%;
+    margin: 0px 30px 0px 0px;
 }
 #last {
     position: absolute;
@@ -70,7 +71,14 @@ body, html {
 }
 #first-flex {
     float: left;
-    margin: 0 0 0 15px;
+    margin: 0 50px 0 70px;
+    height: auto;
+}
+#second-flex {
+    margin: 0 0 0 60px;
+}
+#third-flex {
+    margin: 0 0 0 60px;
 }
 .amazing {
     position: absolute;
@@ -82,6 +90,7 @@ body, html {
 #second {
     text-align: center;
     left: 50%;
+    margin: 0 0 0 150px;
 }
 .second-image {
     top: 600%;
@@ -111,12 +120,16 @@ body, html {
     left:20%;
     font-size: 20px;
 }
-
+#closing {
+    left: 40%;
+    /* margin: 0px 80px 40px 0px; */
+}
 .imageColumn {
     float: left;
     width: 25%;
     padding: 25px;
  }
+
 .first-img{
      background-color: aquamarine;
  }
